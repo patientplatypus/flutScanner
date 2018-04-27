@@ -1,4 +1,4 @@
-# qrcode
+# flutScanner
 
 This is a flutter project that allows a user to scan barcodes.
 
@@ -17,4 +17,5 @@ Has a homepage which routes to two different pages. One has a button that demons
 For the front end - Two options
 - `chmod 777 run.sh && ./run.sh` - provided that you have XCode 9 this will pop the simulator and run the app - it does not allow for barcode scanning as the camera is not accessible from the iOs simulator, however this is useful for development.
 - plug in your phone to your computer via usb or usb-c and `flutter run` provided you have installed flutter and configured to your device (see `flutter.io/docs`). Make sure to double click the icon for the app if it does not immediately pop.
+
 For the back end - `cd backend && npm install && npm run`
